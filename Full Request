@@ -1,0 +1,31 @@
+public interface payroll{
+      public double regularPay();
+      public double overTimepay();
+      public double totalPay();
+      
+      //setters
+      public void setReularPay(double regularPay){
+         this.regularPay = regularPay;
+      }
+      public void setOvertimepay(double overtimepay){
+      this.overtimepay = overtimepay;
+      }
+      public void settotalpay(double totalPay){
+         this.totalPay = totalPay;
+      }
+      //getters
+      public double regularPay(){
+         return regularPay;
+      }
+      public double overtimepay(){
+         return overtimepay;
+      }
+      public double totalPay(){
+         return totalPay;
+      }
+      public void calculateTotalPay (double pfPercentage){
+         double overtimePay = (rate * 1.5);
+         double totalPay = (regular pay + overtTimePay);
+      }
+      
+ }
